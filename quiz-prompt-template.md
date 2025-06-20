@@ -29,4 +29,10 @@ Examples:
 
 > Create a multiple-choice quiz with 10 questions about **Power BI DAX functions**, each with 4 options and one correct answer. Use JSON format with the fields: `question`, `options`, `answer`, `explanation`, and `type` set as `"singleSelect"`. Also add a `title` for the quiz and a top-level `type` set to `"quiz"`.
 
+### Simplified version
+```markdown
+> Create a multiple-choice quiz with the following structure: > - Between 5 and 15 questions. > - Each question should include 4 answer options. > - Only one correct answer per question. > - Clearly indicate the correct option(s) using the index. > - Include a clear and concise explanation for each correct answer. > - Organize the output as structured JSON with the following fields: > question, options (array), answer (array with index of correct option), explanation, type ("singleSelect"). > - Add a title field and set type to "quiz".
 
+> Topic: [Insert quiz topic here] 
+# Example topics: Power BI DAX functions, React.js basics, Python data structures, European history, beginner Spanish vocabulary, cybersecurity fundamentals, etc.
+```
